@@ -32,5 +32,23 @@
       <h2 id="greeting">Hola</h2>
       <div class="stats" id="stats">
       </div>
+    </section>
+
+     <section class="grid">
+      <article class="card">
+        <h3><i class="bi bi-list-check"></i> Tareas</h3>
+        <form id="task-form" class="form-inline">
+          <input id="task-text" placeholder="Escribe una tarea...">
+          <input id="task-due" type="date">
+          <select id="task-priority">
+            <option value="normal">Normal</option>
+            <option value="alta">Urgente</option>
+          </select>
+          <button type="submit">Agregar</button>
+        </form>
+
+        <ul id="task-list" class="item-list"></ul>
+      </article>
+      
 </body>
 </html>
